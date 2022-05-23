@@ -1,56 +1,53 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> Description the project.
-
+> "Math Magicians" is a React web app for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+> - Make simple calculations
+> - Read a random math-related quote
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- JavaScript (ES6)
+- CSS
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+:fire::fire: https://jaujau088.github.io/math-magicians-react/public/ :fire::fire:
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps:
 
 ### Prerequisites
 
+- Node.js
+- npm
+
 ### Setup
 
-### Install
+- Clone the project
+```terminal
+git clone git@github.com:JauJau088/math-magicians-react.git
+```
 
-### Usage
+- cd into the project directory
+```terminal
+cd math-magicians-react
+```
 
-### Run tests
+- Once you've cloned the repo and are inside the directory, run `npm install` command to get all necessary installations.
 
-### Deployment
+- **Yep, that's it!** you are now all set and simply run `npm start` to get your clone up and running on the browser.
 
+## Author
 
+👤 **Jauhari Alafi**
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@JauJau088](https://github.com/JauJau088)
+- Twitter: [@jaujauj](https://twitter.com/jaujauj)
+- LinkedIn: [Jauhari Alafi](https://linkedin.com/in/jauhari-alafi/)
 
 ## 🤝 Contributing
 
@@ -66,7 +63,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- etc.
 
 ## 📝 License
 
