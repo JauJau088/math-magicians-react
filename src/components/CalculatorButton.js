@@ -12,7 +12,7 @@ class Button extends React.Component {
 
   render() {
     return (
-      <button className={`Button ${this.bgColor}`} type="button">
+      <button className={`Button ${this.bgColor} ${this.col}`} type="button">
         { this.text }
       </button>
     );
@@ -22,11 +22,11 @@ class Button extends React.Component {
 Button.propTypes = {
   text: PropTypes.string.isRequired,
   bgColor: PropTypes.string,
-  col: PropTypes.number,
+  col: PropTypes.string,
 };
 
 Button.defaultProps = {
-  col: 1,
+  col: '',
   bgColor: 'Grey',
 };
 
