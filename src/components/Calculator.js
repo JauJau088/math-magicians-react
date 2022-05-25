@@ -1,20 +1,30 @@
 import React from 'react';
 import './Calculator.css';
 import Button from './CalculatorButton';
-import Input from './CalculatorInput';
+import Display from './CalculatorDisplay';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
+    // this.state = {
+    //   total: null,
+    //   next: null,
+    //   operation: null,
+    // };
+  }
+
+  calc(btnName) {
+    this.setState(calculate(btnName));
   }
 
   render() {
     return (
       <div className="CalculatorContainer">
-        <Input />
+        <Display />
         <div className="ButtonsContainer">
-          <Button text="AC" />
+          <Button text="AC" callback={this.calc} />
           <Button text="+/-" />
           <Button text="%" />
           <Button text="÷" bgColor="Orange" />
