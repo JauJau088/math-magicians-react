@@ -37,6 +37,10 @@
   border: none;
 }
 
+.Button:active {
+  filter: brightness(0.85);
+}
+
 .Grey {
   background-color: #e0e0e0;
 }

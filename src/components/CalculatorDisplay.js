@@ -10,7 +10,7 @@ class Display extends React.Component {
   render() {
     return (
       <div className="Display">
-        <div className="Display-Text">{ this.value }</div>
+        <div className="Display-Text">{this.value}</div>
       </div>
     );
   }
