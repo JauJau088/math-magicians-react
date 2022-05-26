@@ -6,7 +6,7 @@ import calculate from '../logic/calculate';
 const Calculator = () => {
   // State hook
   const [state, setState] = useState({
-    total: null,
+    total: '0',
     next: null,
     operation: null,
   });
@@ -17,10 +17,16 @@ const Calculator = () => {
   };
 
   // Display logic
-  const { total, next } = state;
+  const { total, next, operation } = state;
+  let subShow;
+  if (operation == null) {
+    subShow = '';
+  } else {
+    subShow = `${total} ${operation}`;
+  }
   let show;
   if (next == null && total == null) {
-    show = '0';
+    //
   } else if (next == null) {
     show = total;
   } else {
@@ -31,6 +37,7 @@ const Calculator = () => {
   return (
     <div className="CalculatorContainer">
       <div className="Display">
+        <div className="Display-SubText">{subShow}</div>
         <div className="Display-Text">{show}</div>
       </div>
       <div className="ButtonsContainer">
