@@ -1,27 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class Button extends React.Component {
-  constructor(props) {
-    super(props);
-    this.text = props.text;
-    this.bgColor = props.bgColor;
-    this.col = props.col;
-    this.callback = props.callback;
-  }
+const Button = (props) => {
+  const {
+    text, bgColor, col, callback,
+  } = props;
 
-  render() {
-    return (
-      <button
-        className={`Button ${this.bgColor} ${this.col}`}
-        type="button"
-        onClick={() => this.callback(this.text)}
-      >
-        {this.text}
-      </button>
-    );
-  }
-}
+  return (
+    <button
+      className={`Button ${bgColor} ${col}`}
+      type="button"
+      onClick={() => callback(text)}
+    >
+      {text}
+    </button>
+  );
+};
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
