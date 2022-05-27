@@ -1,3 +1,9 @@
+hr {
+  width: 100%;
+  margin: 25px 0 20px 0;
+  border-color: #8a8a8a;
+}
+
 .CalculatorContainer {
   display: flex;
   flex-direction: column;
@@ -7,6 +13,14 @@
   overflow: hidden;
   background-image: linear-gradient(115deg, #8a8a8a, #282828);
   padding: 20px 15px 15px 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  margin: 0 0 2px 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #e0e0e0;
 }
 
 .Display {
@@ -21,7 +35,6 @@
   background-color: #4d545b;
   color: white;
   font-size: 1.3rem;
-  margin-bottom: 20px;
   border-radius: 5px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
 }
@@ -38,7 +51,6 @@
   display: flex;
   align-items: center;
   height: 25px;
-  /* border: 1px solid red; */
   max-width: 100%;
   overflow: hidden;
 }

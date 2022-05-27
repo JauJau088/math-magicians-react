@@ -24,10 +24,12 @@ const Calculator = () => {
   // Render
   return (
     <div className="CalculatorContainer">
+      <h1 className="logo">JauJau</h1>
       <div className="Display">
         <div className="Display-SubText">{subShow}</div>
         <div className="Display-Text">{show}</div>
       </div>
+      <hr />
       <div className="ButtonsContainer">
         <Button text="AC" callback={calc} />
         <Button text="+/-" callback={calc} />
