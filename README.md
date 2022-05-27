@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-:fire::fire: https://jaujau088.github.io/math-magicians-react/public/ :fire::fire:
+:fire::fire: https://jaujau088.github.io/math-magicians-react/build/ :fire::fire:
 
 ## Getting Started
 
