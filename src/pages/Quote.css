@@ -1,0 +1,10 @@
+.Quote {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.QuotePerson {
+  text-align: end;
+  font-size: 14px;
+  font-weight: 300;
+}
