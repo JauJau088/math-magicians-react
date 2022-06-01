@@ -1,13 +1,50 @@
+.NavContainer {
+  width: 100vw;
+  max-width: 1260px;
+  padding: 20px 32px 0 32px;
+}
+
 .Nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 24px;
+  background:
+    radial-gradient(
+      circle,
+      #61ac6e 0%,
+      #356940 100%
+    ),
+    url("../images/wood.svg");
+  border: 8px solid transparent;
+  border-radius: 10px;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  box-shadow:
+    inset 0 0 2px rgba(0, 0, 0, 0.8),
+    0 0 4px rgba(0, 0, 0, 1);
+  color: white;
 }
 
 .Nav-Ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
   list-style-type: none;
+}
+
+.Nav-Li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.Nav-Li a:hover {
+  color: orange;
+}
+
+.Nav-Li a:active {
+  filter: brightness(0.9);
 }
