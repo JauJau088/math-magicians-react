@@ -7,7 +7,7 @@ const Quotes = () => {
 
   return (
     <div className="SectionContainer">
-      <div className="SectionContentContainer">
+      <div className="ChalkBoard SectionContentContainer">
         <div className="SectionContent">
           <p className="Quote">
             &quot;

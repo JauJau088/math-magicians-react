@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div className="NavContainer">
-      <nav className="Nav">
+      <nav className="ChalkBoard Nav">
         <h1>Math Magicians</h1>
         <ul className="Nav-Ul">
           {links.map((e) => (

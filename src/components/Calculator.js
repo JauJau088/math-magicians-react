@@ -23,7 +23,10 @@ const Calculator = () => {
 
   // Render
   return (
-    <div className="SectionContainer">
+    <div className="SectionContainer SectionCalculator">
+      <div className="ChalkBoard LetsMath">
+        <div>Let&apos;s do some math!</div>
+      </div>
       <div className="CalculatorContainer">
         <h1 className="logo">JauJau</h1>
         <div className="Display">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <div className="SectionContainer">
-    <div className="SectionContentContainer">
+    <div className="ChalkBoard SectionContentContainer">
       <div className="SectionContent">
         <h2>Welcome to Math Magicians App!</h2>
         <p>
