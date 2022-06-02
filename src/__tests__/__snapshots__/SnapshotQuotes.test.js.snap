@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test for Quotes page should render home page identical to the snapshot 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Any<Object>,
+          "props": Object {
+            "className": "SectionContent",
+          },
+          "type": "div",
+        },
+      ],
+      "props": Object {
+        "className": "ChalkBoard SectionContentContainer",
+      },
+      "type": "div",
+    },
+  ],
+  "props": Object {
+    "className": "SectionContainer",
+  },
+  "type": "div",
+}
+`;
