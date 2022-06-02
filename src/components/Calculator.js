@@ -20,7 +20,6 @@ const Calculator = () => {
   const { total, next, operation } = state;
   const subShow = operation == null ? '' : `${total} ${operation}`;
   const show = next || total;
-
   // Render
   return (
     <div className="SectionContainer SectionCalculator">
