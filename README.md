@@ -2,7 +2,7 @@
 
 # Math Magicians
 
-<a href="https://jaujau088.github.io/math-magicians-react/build/"><img src="./doc/screenshot.png"/></a>
+<a href="https://jaujau-math-magicians.netlify.app/"><img src="./doc/screenshot.png"/></a>
 > "Math Magicians" is a React web app for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 > - Make simple calculations
 > - Read a random math-related quote
@@ -15,7 +15,8 @@
 
 ## Live Demo
 
-:fire::fire: https://jaujau088.github.io/math-magicians-react/build/ :fire::fire:
+Heroku: https://jaujau-math-magicians.herokuapp.com/
+Netlify: https://jaujau-math-magicians.netlify.app/
 
 ## Getting Started
 
